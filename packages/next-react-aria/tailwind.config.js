@@ -1,7 +1,7 @@
 const plugin = require('tailwindcss/plugin');
 
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}"],
+  content: ["./src/*.{ts,tsx}", "./stories/*.{ts,tsx}"],
   theme: {
     extend: {},
   },
@@ -10,4 +10,3 @@ module.exports = {
     require('tailwindcss-animate')
   ]
 };
-
